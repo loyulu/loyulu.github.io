@@ -64,3 +64,39 @@ header {
   background-color: black;
   color: rgb(255, 255, 255);
 }
+.desktop_nav {
+  display: block;
+}
+.mobile_nav {
+  display: none;
+}
+@media (max-width: 576px) {
+  .desktop_nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
+}
+.mobile_nav {
+  display: flex;
+}
+.logo_mobile {
+  flex: none;
+  width: 50%;
+  padding: 20px;
+}
+.menu_mobile {
+  flex: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 20px;
+}
+.logo_mobile img {
+  height: 40px;
+}
+.menu_mobile img {
+  height: 40px;
+  flex: none;
+}
