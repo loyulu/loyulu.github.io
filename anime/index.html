@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/banner.css" />
   </head>
   <body>
     <div class="desktop_nav">
@@ -27,20 +28,47 @@
           <a href="#">週期表</a>
         </div>
         <div class="logIn">
-          <a href="#"><img src="./image/logIn.png" /></a>
+          <img src="./image/logIn.png" />
         </div>
       </header>
     </div>
     <div class="mobile_nav">
-      <div class="logo_mobile">
-        <img src="./image/logo.png" />
+      <div class="nav">
+        <div class="logo_mobile">
+          <img src="./image/logo.png" />
+        </div>
+        <div class="menu_mobile">
+          <a href="#"><img src="./image/menu.png" /></a>
+        </div>
       </div>
-      <div class="menu_mobile">
-        <a href="#"><img src="./image/menu.png" /></a>
+
+      <div id="burger_menu">
+        <div class="link">
+          <a href="#">排行榜</a>
+          <a href="#">新番表</a>
+          <a href="#">週期表</a>
+          <div class="log">
+            <img src="./image/logIn.png" />
+          </div>
+        </div>
       </div>
     </div>
 
-    <div id="banner"></div>
+    <div id="banner">
+      <div class="info">
+        <!--左圖改有白底的-->
+        <img src="./image/banner_info.png" />
+      </div>
+      <div class="info_word">
+        <p>2022 7新番</p>
+        <p class="black_bg">2022 10新番</p>
+        <p>2023 1新番</p>
+      </div>
+      <div class="pic">
+        <img src="./image/banner_pic.png" />
+      </div>
+    </div>
+
     <div id="carousel"></div>
     <div id="movie"></div>
     <div id="time"></div>
