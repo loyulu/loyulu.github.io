@@ -20,6 +20,7 @@ body {
   height: 70px;
   flex: none;
   text-align: center;
+  margin-left: -20px;
 }
 header {
   background: rgb(255, 255, 255);
@@ -33,11 +34,12 @@ header {
   align-items: center;
   justify-content: center;
   margin-left: 50px;
-  z-index: 999;
+  z-index: 998;
 }
 .logo {
   flex: none;
-  width: 15%;
+  height: 30px;
+
   text-align: center;
 }
 .logIn {

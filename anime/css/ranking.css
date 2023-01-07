@@ -1,18 +1,102 @@
+#ranking {
+  display: flex;
+  padding-right: 50px;
+  padding-left: 100px;
+  margin-top: 100px;
+  width: 100%;
+}
+.ranking_left {
+  width: 60%;
+  flex: none;
+  height: 100%;
+}
+.ranking_right {
+  width: 40%;
+  flex: none;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
 .title {
   background: #000;
-  margin-left: 100px;
-  margin-top: 100px;
   color: rgb(255, 255, 255);
   height: 40px;
-  width: 10%;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: none;
 }
 
 .carousel {
-  width: 70%;
-  margin-left: 50px;
   margin-top: 20px;
+  flex: none;
+}
+.carousel iframe {
+  height: 680px;
+}
+.rank {
+  margin-bottom: 20px;
   display: flex;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 50px;
+}
+.rank_fir {
+  margin-bottom: 20px;
+  display: flex;
+  background: #000;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  height: 50px;
+}
+.rank_fir p {
+  color: white;
+}
+.rank_number {
+  background: #000;
+  width: 48px;
+  height: 48px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.rank_name {
+  width: 60%;
+  padding: 10px 30px;
+}
+.rank_name p {
+  font-weight: 700;
+}
+.rank_point {
+  width: 25%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.rank_point img {
+  width: 125px;
+}
+.rank_score {
+  width: 15%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+@media (max-width: 576px) {
+  #ranking {
+    align-items: center;
+    padding: 25px;
+    display: block;
+  }
+  .ranking_left {
+    width: 100%;
+  }
+  .ranking_right {
+    width: 100%;
+  }
+  .carousel iframe {
+    height: 300px;
+  }
 }

@@ -1,0 +1,73 @@
+#logIn {
+  position: absolute;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 630px;
+  height: 450px;
+  display: none;
+  background: white;
+  z-index: 1000;
+}
+.log {
+  width: 100%;
+}
+.logIn_close {
+  height: 30px;
+  width: 100%;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5px;
+}
+.logIn_close img {
+  height: 15px;
+}
+.logIn_title {
+  height: 60px;
+  width: 100%;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  height: 300px;
+  width: 100%;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-top: 60px;
+  text-align: center;
+}
+.input p {
+  margin-left: -100px;
+}
+.password {
+  padding-top: 20px;
+}
+
+.account {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newaccount {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newaccount p {
+  margin-bottom: 0;
+}

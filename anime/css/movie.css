@@ -1,0 +1,71 @@
+#movie {
+  padding-right: 50px;
+  padding-left: 100px;
+  margin-top: 100px;
+  width: 100%;
+}
+.sort {
+  display: flex;
+}
+.sort_left {
+  width: 50%;
+}
+.sort_right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.sort_title {
+  background: #000;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  margin-bottom: 20px;
+}
+.more {
+  background: rgb(255, 255, 255);
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  margin-bottom: 20px;
+}
+
+/*新番*/
+.new {
+  height: 300px;
+  width: 100%;
+  background: #000;
+  margin-bottom: 50px;
+}
+
+/*續作*/
+.again {
+  height: 300px;
+  width: 100%;
+  background: #000;
+}
+@media (max-width: 576px) {
+  #movie {
+    align-items: center;
+    padding: 25px;
+  }
+  .title {
+    width: 100%;
+  }
+  .new {
+    width: 100%;
+  }
+  .again {
+    width: 100%;
+  }
+}

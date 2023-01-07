@@ -4,15 +4,16 @@
   padding-top: 78px;
   width: 100%;
 }
+/*左*/
 .info {
   flex: none;
   width: 25%;
   display: block;
-  z-index: -996px;
 }
+/*方格文字*/
 .word {
   position: absolute;
-  margin: 530px 175px;
+  margin: 530px 165px;
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -21,18 +22,12 @@
   font-weight: 700;
   margin-top: -5px;
 }
+/*左底圖*/
 .info img {
   height: 800px;
   cursor: none;
 }
-.pic {
-  z-index: -998;
-  flex: none;
-  width: 75%;
-}
-.pic img {
-  height: 800px;
-}
+/*圖案文字*/
 .info_word {
   display: block;
   position: absolute;
@@ -53,4 +48,16 @@
   background: #000;
   color: rgb(255, 255, 255);
   font-weight: 700;
+}
+
+/*右*/
+.pic {
+  flex: none;
+  z-index: -998;
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+.pic img {
+  height: 800px;
 }

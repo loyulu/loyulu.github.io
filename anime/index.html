@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="./css/banner.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/ranking.css" />
+    <link rel="stylesheet" href="./css/movie.css" />
+    <link rel="stylesheet" href="./css/time.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/logIn.css" />
     <!--google_font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +38,9 @@
   <body>
     <div class="desktop_nav">
       <div id="left_bar">
-        <div class="tag">2022 10月新番</div>
+        <div class="tag">
+          <p>2022 10月新番</p>
+        </div>
       </div>
       <header>
         <div class="logo">
@@ -42,9 +48,9 @@
         </div>
 
         <div class="nav_link">
-          <a href="#">排行榜</a>
-          <a href="#">新番表</a>
-          <a href="#">週期表</a>
+          <a href="#ranking">排行榜</a>
+          <a href="#movie">新番表</a>
+          <a href="#time">週期表</a>
         </div>
         <div class="logIn">
           <img src="./image/logIn.png" />
@@ -72,7 +78,31 @@
         </div>
       </div>
     </div>
-
+    <div id="logIn">
+      <div class="log">
+        <div class="logIn_close">
+          <img src="./image/close.png" />
+        </div>
+        <div class="logIn_title">
+          <p>帳號登入</p>
+        </div>
+        <div class="input">
+          <div class="name">
+            <p>帳戶名稱</p>
+            <input type="text" name="memberName" />
+          </div>
+          <div class="password">
+            <p>帳號密碼</p>
+            <input type="password" name="pass" />
+          </div>
+        </div>
+        <div class="account">
+          <div class="newaccount">
+            <p>註冊新帳號</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="banner">
       <div class="info">
         <div class="word">
@@ -95,8 +125,9 @@
     </div>
 
     <div id="ranking">
-      <div>
+      <div class="ranking_left">
         <div class="title">排行榜</div>
+
         <!--carousel-->
         <div class="carousel">
           <div
@@ -126,13 +157,56 @@
                 data-bs-slide-to="2"
                 aria-label="Slide 3"
               ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="8"
+                aria-label="Slide 9"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="9"
+                aria-label="Slide 10"
+              ></button>
             </div>
             <!--內容-->
             <div class="carousel-inner">
+              <!--01-->
               <div class="carousel-item active">
                 <iframe
-                  width="840"
-                  height="472"
+                  width="980"
+                  height="700"
                   src="https://www.youtube.com/embed/Fp7lnCp_LW0"
                   title="YouTube video player"
                   frameborder="0"
@@ -141,10 +215,11 @@
                   class="d-block w-100"
                 ></iframe>
               </div>
+              <!--02-->
               <div class="carousel-item">
                 <iframe
-                  width="840"
-                  height="472"
+                  width="980"
+                  height="700"
                   src="https://www.youtube.com/embed/WFVY88Urzuc"
                   title="YouTube video player"
                   frameborder="0"
@@ -153,11 +228,103 @@
                   class="d-block w-100"
                 ></iframe>
               </div>
+              <!--03-->
               <div class="carousel-item">
                 <iframe
-                  width="840"
-                  height="472"
+                  width="980"
+                  height="700"
                   src="https://www.youtube.com/embed/mYd_l3E7yOc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--04-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/jk7QSGwupPA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--05-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/g8iNMKef5MQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--06-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/dIgooexWDk0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--07-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/la9gmeYr4eA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--08-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/wPEu9nI21wA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--09-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/cDoQMIE2l3w"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="d-block w-100"
+                ></iframe>
+              </div>
+              <!--10-->
+              <div class="carousel-item">
+                <iframe
+                  width="980"
+                  height="700"
+                  src="https://www.youtube.com/embed/tDPaiz4ValU"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -196,14 +363,215 @@
         </div>
         <!--carousel-->
       </div>
-
-      <div class="rank"></div>
+      <div class="ranking_right">
+        <!--01-->
+        <div class="rank_fir">
+          <div class="rank_number">
+            <p>01</p>
+          </div>
+          <div class="rank_name">
+            <p>孤獨搖滾!</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point_fir.png" />
+          </div>
+          <div class="rank_score">
+            <p>83.6分</p>
+          </div>
+        </div>
+        <!--02-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>02</p>
+          </div>
+          <div class="rank_name">
+            <p>SPY×FAMILY 間諜家家酒 第二季</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point.png" />
+          </div>
+          <div class="rank_score">
+            <p>78.7分</p>
+          </div>
+        </div>
+        <!--03-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>03</p>
+          </div>
+          <div class="rank_name">
+            <p>機動戰士高達 水星的魔女</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point.png" />
+          </div>
+          <div class="rank_score">
+            <p>73.1分</p>
+          </div>
+        </div>
+        <!--04-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>04</p>
+          </div>
+          <div class="rank_name">
+            <p>鏈鋸人</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point.png" />
+          </div>
+          <div class="rank_score">
+            <p>72.8分</p>
+          </div>
+        </div>
+        <!--05-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>05</p>
+          </div>
+          <div class="rank_name">
+            <p>BLUE LOCK 藍色監獄</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point.png" />
+          </div>
+          <div class="rank_score">
+            <p>71.3分</p>
+          </div>
+        </div>
+        <!--06-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>06</p>
+          </div>
+          <div class="rank_name">
+            <p>我想成為影之強者！</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point.png" />
+          </div>
+          <div class="rank_score">
+            <p>70.6分</p>
+          </div>
+        </div>
+        <!--07-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>07</p>
+          </div>
+          <div class="rank_name">
+            <p>轉生就是劍</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point.png" />
+          </div>
+          <div class="rank_score">
+            <p>70.2分</p>
+          </div>
+        </div>
+        <!--08-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>08</p>
+          </div>
+          <div class="rank_name">
+            <p>BLEACH 千年血戰篇</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point_low.png" />
+          </div>
+          <div class="rank_score">
+            <p>69.9分</p>
+          </div>
+        </div>
+        <!--09-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>09</p>
+          </div>
+          <div class="rank_name">
+            <p>我的英雄學院 第六季</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point_low.png" />
+          </div>
+          <div class="rank_score">
+            <p>67.0分</p>
+          </div>
+        </div>
+        <!--10-->
+        <div class="rank">
+          <div class="rank_number">
+            <p>10</p>
+          </div>
+          <div class="rank_name">
+            <p>秋葉原冥途戰爭</p>
+          </div>
+          <div class="rank_point">
+            <img src="./image/rank_point_low.png" />
+          </div>
+          <div class="rank_score">
+            <p>66.9分</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="movie"></div>
-    <div id="time"></div>
-    <div id="footer"></div>
-    <div id="logIn"></div>
+    <div class="deco">
+      <div class="deco_line"></div>
+    </div>
+    <div id="movie">
+      <!--新作標題-->
+      <div class="sort">
+        <div class="sort_left">
+          <div class="sort_title">新作</div>
+        </div>
+        <div class="sort_right">
+          <div class="more">see more</div>
+        </div>
+      </div>
+      <!--新作內容-->
+      <div class="new"></div>
+      <!--續作標題-->
+      <div class="sort">
+        <div class="sort_left">
+          <div class="sort_title">續作</div>
+        </div>
+        <div class="sort_right">
+          <div class="more">see more</div>
+        </div>
+      </div>
+      <!--續作內容-->
+      <div class="again"></div>
+    </div>
+    <div class="deco">
+      <div class="deco_line"></div>
+    </div>
+
+    <div id="time">
+      <div class="time_title">週期表</div>
+      <div class="time">
+        <img src="./image/time.png" />
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer">
+        <div class="footer_logo">
+          <img src="./image/logo.png" />
+        </div>
+        <div class="footer_icon">
+          <div class="ig">
+            <img src="./image/icon_ig.png" />
+          </div>
+          <div class="fb">
+            <img src="./image/icon_fb.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="intro"></div>
+
+    <!--js-->
     <script src="./js/jquery-3.6.3.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -211,6 +579,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+
     <script src="./js/main.js"></script>
   </body>
 </html>
