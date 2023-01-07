@@ -1,0 +1,19 @@
+.deco {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.deco_line {
+  height: 50px;
+  width: 73%;
+  flex: none;
+  border-color: black;
+  border-width: 2px;
+  border-right-width: 0px;
+  border-style: solid;
+  margin-top: 100px;
+}
+body p {
+  font-family: "Fascinate", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+}

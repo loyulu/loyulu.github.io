@@ -1,15 +1,29 @@
 #banner {
   display: flex;
   padding-left: 50px;
-  padding-top: 80px;
+  padding-top: 78px;
   width: 100%;
 }
 .info {
   flex: none;
   width: 25%;
+  display: block;
+  z-index: -996px;
+}
+.word {
+  position: absolute;
+  margin: 530px 175px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.big_word {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -5px;
 }
 .info img {
   height: 800px;
+  cursor: none;
 }
 .pic {
   z-index: -998;
@@ -39,4 +53,5 @@
 .black_bg {
   background: #000;
   color: rgb(255, 255, 255);
+  font-weight: 700;
 }
