@@ -4,4 +4,9 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 });
 $(".logIn").click(function () {
   $("#logIn").show();
+  $(".backdrop").show();
+});
+$(".logIn_close").click(function () {
+  $("#logIn").hide();
+  $(".backdrop").hide();
 });

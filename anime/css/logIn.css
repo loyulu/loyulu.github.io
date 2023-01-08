@@ -1,5 +1,8 @@
 #logIn {
-  position: absolute;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-color: black;
   border-width: 2px;
   border-style: solid;
@@ -7,10 +10,11 @@
   height: 450px;
   display: none;
   background: white;
-  z-index: 1000;
+  z-index: 1001;
 }
 .log {
   width: 100%;
+  z-index: 1001;
 }
 .logIn_close {
   height: 30px;
@@ -70,4 +74,13 @@
 }
 .newaccount p {
   margin-bottom: 0;
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
 }
