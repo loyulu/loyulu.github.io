@@ -6,8 +6,8 @@
   border-color: black;
   border-width: 2px;
   border-style: solid;
-  width: 630px;
-  height: 450px;
+  width: 600px;
+  height: 490px;
   display: none;
   background: white;
   z-index: 1001;
@@ -31,7 +31,7 @@
   height: 15px;
 }
 .logIn_title {
-  height: 60px;
+  height: 80px;
   width: 100%;
   border-bottom-color: black;
   border-bottom-width: 2px;
@@ -39,25 +39,57 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
-.input {
+.logIn_input {
   height: 300px;
   width: 100%;
   border-bottom-color: black;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  padding-top: 60px;
+  padding-top: 40px;
   text-align: center;
 }
-.input p {
-  margin-left: -100px;
+.name input {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0;
+}
+.name p {
+  margin-left: -105px;
+  margin-bottom: 10px;
 }
 .password {
   padding-top: 20px;
 }
+.password p {
+  margin-left: -105px;
+  margin-bottom: 10px;
+}
+.password input {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0;
+}
+.password input::after {
+  border-radius: 0;
+}
 
+.enter {
+  background: #000;
+  color: white;
+  width: 190px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  margin-top: 110px;
+}
 .account {
-  height: 60px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -68,6 +100,7 @@
   border-width: 2px;
   border-style: solid;
   width: 190px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;

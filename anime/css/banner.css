@@ -25,7 +25,6 @@
 /*左底圖*/
 .info img {
   height: 800px;
-  cursor: none;
 }
 /*圖案文字*/
 .info_word {
@@ -60,4 +59,35 @@
 }
 .pic img {
   height: 800px;
+}
+/*rwd*/
+
+#banner_mobile {
+  display: none;
+
+  padding-top: 80px;
+  padding-left: 30px;
+}
+@media (max-width: 576px) {
+  #banner {
+    display: none;
+  }
+  #banner_mobile {
+    display: block;
+  }
+  .info_word {
+    display: block;
+    margin: 0;
+  }
+  .info_word p {
+    height: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0px 80px;
+    margin: 20px 0px;
+  }
+}
+.pic_mobile img {
+  width: 100%;
 }

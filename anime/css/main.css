@@ -27,4 +27,7 @@ body a {
   .deco {
     display: none;
   }
+  body p {
+    font-size: 10px;
+  }
 }

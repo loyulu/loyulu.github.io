@@ -54,7 +54,7 @@
 }
 
 /*新番*/
-.new {
+.movie {
   height: 310px;
   width: 100%;
   background: rgb(255, 255, 255);
@@ -74,7 +74,7 @@
 
 .inner_line {
   background: rgb(0, 0, 0);
-  height: 1px;
+  height: 2px;
 }
 .new_frame img {
   width: 100%;
@@ -93,7 +93,7 @@
   display: flex;
   font-size: 12px;
   margin: 0px;
-  padding: 7px;
+  padding: 6px;
   overflow: hidden;
 }
 .word_filter {
@@ -108,13 +108,14 @@
 }
 .new_more {
   display: none;
+  margin-top: -20px;
+}
+.again_more {
+  display: none;
+  margin-top: -20px;
 }
 /*續作*/
-.again {
-  height: 300px;
-  width: 100%;
-  background: #000;
-}
+
 @media (max-width: 576px) {
   #movie {
     align-items: center;

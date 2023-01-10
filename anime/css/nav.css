@@ -122,9 +122,8 @@ header {
   height: 20px;
   flex: none;
 }
-
 #burger_menu {
-  width: 50px;
+  width: 100px;
   height: 100%;
   background: rgb(255, 255, 255);
   position: absolute;
@@ -139,10 +138,6 @@ header {
 .link a {
   text-decoration: none;
   color: inherit;
-}
-.link a:hover {
-  background-color: black;
-  color: rgb(255, 255, 255);
 }
 .log img {
   height: 40px;
