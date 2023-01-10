@@ -105,4 +105,7 @@
   .rank_score {
     display: none;
   }
+  .rank_point {
+    display: none;
+  }
 }
