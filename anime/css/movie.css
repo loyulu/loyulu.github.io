@@ -26,7 +26,20 @@
   flex: none;
   margin-bottom: 20px;
 }
-.more {
+.more_btn_1 {
+  background: rgb(255, 255, 255);
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  margin-bottom: 20px;
+}
+.more_btn_2 {
   background: rgb(255, 255, 255);
   border-color: black;
   border-width: 2px;
@@ -42,12 +55,60 @@
 
 /*新番*/
 .new {
-  height: 300px;
+  height: 310px;
   width: 100%;
-  background: #000;
+  background: rgb(255, 255, 255);
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.new_frame {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 100%;
+  width: 200px;
 }
 
+.inner_line {
+  background: rgb(0, 0, 0);
+  height: 1px;
+}
+.new_frame img {
+  width: 100%;
+  height: 275px;
+}
+.new_info {
+  width: 100%;
+  height: 27px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.new_name {
+  text-align: center;
+  display: flex;
+  font-size: 12px;
+  margin: 0px;
+  padding: 7px;
+  overflow: hidden;
+}
+.word_filter {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 80%,
+    rgba(255, 255, 255, 1)
+  );
+  position: absolute;
+}
+.new_more {
+  display: none;
+}
 /*續作*/
 .again {
   height: 300px;

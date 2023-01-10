@@ -24,9 +24,22 @@
 }
 .footer_icon {
   display: flex;
-  width: 10%;
+  width: 5%;
 }
 .footer_icon img {
+  flex: none;
   height: 40px;
   margin-left: 30px;
+}
+@media (max-width: 576px) {
+  #footer {
+    padding: 25px;
+    height: 40px;
+  }
+  .footer_logo img {
+    height: 20px;
+  }
+  .footer_icon img {
+    height: 20px;
+  }
 }
