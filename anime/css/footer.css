@@ -24,6 +24,7 @@
 }
 .footer_icon {
   display: flex;
+  justify-content: flex-end;
   width: 5%;
 }
 .footer_icon img {
@@ -42,5 +43,11 @@
   }
   .footer_icon img {
     height: 20px;
+  }
+  .footer_logo {
+    width: 80%;
+  }
+  .footer_icon {
+    width: 10%;
   }
 }

@@ -2,7 +2,11 @@ var myCarousel = document.querySelector("#myCarousel");
 var carousel = new bootstrap.Carousel(myCarousel, {
   pause: "hover",
 });
-$(".logIn" && ".logIn_mobile").click(function () {
+$(".logIn").click(function () {
+  $("#logIn").show();
+  $(".backdrop").show();
+});
+$(".logIn_mobile").click(function () {
   $("#logIn").show();
   $(".backdrop").show();
 });
