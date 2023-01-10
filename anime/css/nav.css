@@ -101,21 +101,23 @@ header {
   border-bottom-style: solid;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
+  padding: 0 20px;
 }
 .logo_mobile {
+  padding-left: 20px;
   flex: none;
-  width: 44%;
-  padding: 3%;
+  width: 50%;
 }
 .menu_mobile {
   flex: none;
   display: flex;
-  width: 44%;
-  padding: 3%;
+  width: 50%;
   justify-content: flex-end;
 }
 .logo_mobile img {
   height: 20px;
+  flex: none;
 }
 
 .menu_mobile img {
@@ -126,19 +128,38 @@ header {
   width: 100px;
   height: 100%;
   background: rgb(255, 255, 255);
-  position: absolute;
-  z-index: -999;
-  border-right-color: black;
-  border-right-width: 2px;
-  border-right-style: solid;
-  display: block;
-  justify-content: flex-end;
+  position: fixed;
+  z-index: 1001;
+  border-left-color: black;
+  border-left-width: 2px;
+  border-left-style: solid;
   margin-top: 50px;
+  z-index: 999;
+  right: 0%;
+  display: none;
 }
+
 .link a {
+  padding: 30px 0px;
+  display: block;
   text-decoration: none;
-  color: inherit;
+  color: black;
+  text-align: center;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
-.log img {
+.link a:hover {
+  background-color: #000000;
+  color: white;
+}
+.log_icon {
+  height: 70%;
+  display: flex;
+  padding-bottom: 50px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.log_icon img {
   height: 40px;
 }

@@ -1,5 +1,4 @@
 #time {
-  padding-right: 50px;
   padding-left: 100px;
   margin-top: 100px;
   width: 100%;
@@ -19,5 +18,29 @@
 }
 
 .time img {
-  height: 800px;
+  width: 100%;
+}
+.time_mobile {
+  display: none;
+}
+@media (max-width: 576px) {
+  #time {
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    display: block;
+    margin-top: 0px;
+    height: auto;
+  }
+  .time_title {
+    position: relative;
+    width: 100%;
+  }
+  .time_desktop {
+    display: none;
+  }
+  .time_mobile {
+    display: block;
+  }
 }

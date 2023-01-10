@@ -2,7 +2,7 @@ var myCarousel = document.querySelector("#myCarousel");
 var carousel = new bootstrap.Carousel(myCarousel, {
   pause: "hover",
 });
-$(".logIn").click(function () {
+$(".logIn" && ".logIn_mobile").click(function () {
   $("#logIn").show();
   $(".backdrop").show();
 });
@@ -17,10 +17,14 @@ $(".more_btn_2").click(function () {
   $(".again_more").slideToggle();
 });
 $(".enter").click(function () {
-  var inputVal = $('input[name="memberName"]').val();
-  var inputVal2 = $('input[name="pass"]').val();
-  console.log(inputVal, inputVal2);
-  if (inputVal2 !== "456") {
+  var inputVal = $('input[name="pass"]').val();
+  if (inputVal !== "123") {
     alert("密碼錯誤");
+  } else {
+    $("#logIn").hide();
+    $(".backdrop").hide();
   }
+});
+$(".menu_btn").click(function () {
+  $("#burger_menu").slideToggle();
 });

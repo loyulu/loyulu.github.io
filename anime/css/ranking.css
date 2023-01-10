@@ -102,4 +102,7 @@
   .carousel iframe {
     height: 300px;
   }
+  .rank_score {
+    display: none;
+  }
 }

@@ -19,13 +19,14 @@
 .logIn_close {
   height: 30px;
   width: 100%;
+  background: rgb(255, 255, 255);
   border-bottom-color: black;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .logIn_close img {
   height: 15px;
@@ -97,6 +98,7 @@
 }
 .newaccount {
   border-color: black;
+  background: white;
   border-width: 2px;
   border-style: solid;
   width: 190px;
@@ -104,9 +106,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1002;
 }
 .newaccount p {
   margin-bottom: 0;
+}
+.logIn_pic {
+  position: absolute;
+  z-index: 1001;
+  left: 175px;
+}
+.account img {
+  height: 55px;
 }
 .backdrop {
   display: none;
@@ -116,4 +127,12 @@
   background-color: rgba(255, 255, 255, 0.25);
   z-index: 1000;
   backdrop-filter: blur(5px);
+}
+@media (max-width: 576px) {
+  #logIn {
+    width: 400px;
+  }
+  .logIn_pic {
+    display: none;
+  }
 }

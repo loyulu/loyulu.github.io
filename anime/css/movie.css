@@ -114,13 +114,28 @@
   display: none;
   margin-top: -20px;
 }
-/*續作*/
 
+.movie_mobile {
+  display: none;
+}
 @media (max-width: 576px) {
+  .movie_mobile {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .movie_desktop {
+    display: none;
+  }
   #movie {
     align-items: center;
     padding: 25px;
+    margin-top: 0;
   }
+  .sort_title {
+    width: 100%;
+    margin-top: -20px;
+  }
+
   .title {
     width: 100%;
   }
@@ -129,5 +144,27 @@
   }
   .again {
     width: 100%;
+  }
+  .movie {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .new_frame {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .new_frame img {
+    height: 200px;
+  }
+  .more_btn_1 {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .more_btn_2 {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .new_more {
+    margin-top: -px;
   }
 }
