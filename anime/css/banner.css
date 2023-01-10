@@ -64,10 +64,10 @@
 
 #banner_mobile {
   display: none;
-
   padding-top: 80px;
   padding-left: 30px;
 }
+
 @media (max-width: 576px) {
   #banner {
     display: none;
@@ -80,6 +80,7 @@
     margin: 0;
     width: 100%;
     position: relative;
+    padding-right: 25px;
   }
   .info_word p {
     height: 30px;
@@ -89,8 +90,9 @@
     padding: 0px 80px;
     margin: 20px 0px;
   }
-  .info_none {
-    display: none;
+  .info_mobile {
+    margin-right: 25px;
+    margin-top: 25px;
   }
 }
 .pic_mobile img {
