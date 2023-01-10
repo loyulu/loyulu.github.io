@@ -78,6 +78,8 @@
   .info_word {
     display: block;
     margin: 0;
+    width: 100%;
+    position: relative;
   }
   .info_word p {
     height: 30px;
@@ -86,6 +88,9 @@
     border-style: solid;
     padding: 0px 80px;
     margin: 20px 0px;
+  }
+  .info_none {
+    display: none;
   }
 }
 .pic_mobile img {

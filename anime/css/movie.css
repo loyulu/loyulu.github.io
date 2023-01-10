@@ -148,6 +148,7 @@
   .movie {
     height: auto;
     margin-bottom: 20px;
+    flex-wrap: none;
   }
   .new_frame {
     width: 150px;
