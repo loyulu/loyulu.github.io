@@ -14,6 +14,7 @@ $(".logIn_close").click(function () {
   $("#logIn").hide();
   $(".backdrop").hide();
 });
+
 $(".more_btn_1").click(function () {
   $(".new_more").slideToggle();
 });
@@ -31,4 +32,13 @@ $(".enter").click(function () {
 });
 $(".menu_btn").click(function () {
   $("#burger_menu").slideToggle();
+});
+
+$(".new_frame").click(function () {
+  $(".movie_popup").show();
+  $(".backdrop").show();
+});
+$(".logIn_close").click(function () {
+  $(".movie_popup").hide();
+  $(".backdrop").hide();
 });

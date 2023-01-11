@@ -108,4 +108,10 @@
   .rank_point {
     display: none;
   }
+  .rank_name {
+    width: 80%;
+  }
+  .rank_fir {
+    width: 100%;
+  }
 }
